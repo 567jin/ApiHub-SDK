@@ -4,7 +4,6 @@
 
 <h1 align="center">API-Hub-SDK</h1>
 <p align="center"><strong>API-Hub 接口开放平台开发者工具包</strong></p>
-
 <div align="center">
     <img alt="Maven" src="https://raster.shields.io/badge/Maven-3.8.1-red.svg"/>
    <img alt="SpringBoot" src="https://raster.shields.io/badge/SpringBoot-2.7+-green.svg"/>
@@ -13,18 +12,59 @@
 ### 目录结构 📝
 
 ```text
-qiapisdk
-    ├─client
-    ├─config
-    ├─exception
-    ├─model
-    │  ├─enums
-    │  ├─params
-    │  ├─request
-    │  └─response
-    ├─service
-    │  └─impi
-    └─utils
+├───client    -->ApiClient的创建
+│       ApiClient.java
+│
+├───config    -->配置类
+│       ApiClientConfig.java
+│
+├───exception    -->异常
+│       ApiException.java
+│       ErrorCode.java
+│       ErrorResponse.java
+│
+├───model
+│   ├───enums    -->请求方法枚举类
+│   │       RequestMethodEnum.java
+│   │
+│   ├───params    -->请求参数封装
+│   │       HoroscopeParams.java
+│   │       IpInfoParams.java
+│   │       LocationParam.java
+│   │       LoveParams.java
+│   │       NameParams.java
+│   │       PoetParam.java
+│   │       PoisonousChickenSoupParams.java
+│   │       RandomWallpaperParams.java
+│   │       WeatherParams.java
+│   │
+│   ├───request    -->请求
+│   │       BaseRequest.java
+│   │       CurrencyRequest.java
+│   │       HoroscopeRequest.java
+│   │       IpInfoRequest.java
+│   │       LoveRequest.java
+│   │       NameRequest.java
+│   │       PoisonousChickenSoupRequest.java
+│   │       RandomWallpaperRequest.java
+│   │       WeatherRequest.java
+│   │
+│   └───response    -->响应
+│           LoveResponse.java
+│           NameResponse.java
+│           PoisonousChickenSoupResponse.java
+│           RandomWallpaperResponse.java
+│           ResultResponse.java
+│
+├───service    -->服务
+│   │   ApiService.java
+│   │   BaseService.java
+│   │
+│   └───impl    -->实现
+│           ApiServiceImpl.java
+│
+└───utils    -->签名认证工具类
+        SignUtils.java
 ```
 
 ### 导航 🧭
