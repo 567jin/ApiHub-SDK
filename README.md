@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=https://s2.loli.net/2024/02/28/m86PdqAiHLw9fok.png/>
+    <img src="https://s2.loli.net/2024/02/28/m86PdqAiHLw9fok.png"/>
 </p>
 
 <h1 align="center">API-Hub-SDK</h1>
