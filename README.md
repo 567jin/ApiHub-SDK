@@ -9,6 +9,7 @@
     <img alt="Maven" src="https://raster.shields.io/badge/Maven-3.8.1-red.svg"/>
    <img alt="SpringBoot" src="https://raster.shields.io/badge/SpringBoot-2.7+-green.svg"/>
 </div>
+
 ### 目录结构 📝
 
 ```text
@@ -64,12 +65,12 @@ qiapisdk
 
     ```yml
     # API-Hub 配置
-  api:
-    client:
-      access-key: 你的 accessKey
-      secret-key: 你的 secretKey
-      # 本地网关地址，可修改为自己的网关，用于本地测试，线上网关地址等，不配置默认平台的网关
-     # host: http://localhost:8090/api
+      api:
+        client:
+          access-key: 你的 accessKey
+          secret-key: 你的 secretKey
+          # 本地网关地址，可修改为自己的网关，用于本地测试，线上网关地址等，不配置默认平台的网关
+         # host: http://localhost:8090/api
     ```
     
   - properties
