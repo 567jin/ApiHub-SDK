@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=https://img.qimuu.icu/typory/logo.gif width=188/>
+    <img src=https://s2.loli.net/2024/02/28/m86PdqAiHLw9fok.png/>
 </p>
 
 <h1 align="center">API-Hub-SDK</h1>
@@ -28,8 +28,8 @@ qiapisdk
 
 ### 导航 🧭
 
-- **[API-Hub 接口开放平台 🔗](https://api.qimuu.icu/)**
-- **[API-Hub-DOC 开发者文档 📖](https://doc.qimuu.icu/)**
+- **[API-Hub 接口开放平台 🔗]()**
+- **[API-Hub-DOC 开发者文档 📖]()**
 
 ###  快速开始 🚀
 
