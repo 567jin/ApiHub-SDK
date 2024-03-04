@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author jin
- * @Version: 1.0
  */
 @Data
 @Configuration

@@ -2,8 +2,6 @@ package com.jin.apisdk.model.enums;
 
 /**
  * @author jin
- * @Version: 1.0
- * @Description:
  */
 public enum RequestMethodEnum {
     /**

@@ -4,15 +4,11 @@ import cn.hutool.http.HttpResponse;
 import com.jin.apisdk.client.ApiClient;
 import com.jin.apisdk.exception.ApiException;
 import com.jin.apisdk.model.request.*;
-import com.jin.apisdk.model.response.LoveResponse;
-import com.jin.apisdk.model.response.PoisonousChickenSoupResponse;
-import com.jin.apisdk.model.response.RandomWallpaperResponse;
-import com.jin.apisdk.model.response.ResultResponse;
+import com.jin.apisdk.model.response.*;
 
 
 /**
  * @author jin
- * @Version: 1.0
  * @Description:
  */
 public interface ApiService {
@@ -146,4 +142,24 @@ public interface ApiService {
      * @throws ApiException 业务异常
      */
     ResultResponse getWeatherInfo(WeatherRequest request) throws ApiException;
+
+    /**
+     * 获取随机狗狗图片
+     *
+     * @param apiClient api客户端
+     * @param request   要求
+     * @return {@link RandomDogResponse}
+     * @throws ApiException 业务异常
+     */
+    RandomDogResponse getRandomDog(ApiClient apiClient, RandomDogRequest request) throws ApiException;
+
+    /**
+     * 获取随机狗狗图片
+     *
+     * @param apiClient api客户端
+     * @param request   要求
+     * @return {@link RandomDogResponse}
+     * @throws ApiException 业务异常
+     */
+    RandomCatResponse getRandomCat(ApiClient apiClient, RandomCatRequest request) throws ApiException;
 }

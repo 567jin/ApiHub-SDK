@@ -7,7 +7,6 @@ import java.io.Serializable;
 
 /**
  * @author jin
- * @Version: 1.0
  * @Description: 获取ip地址请求参数
  */
 @Data

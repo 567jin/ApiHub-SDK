@@ -3,7 +3,7 @@ package com.jin.apisdk.exception;
 /**
  * 同一返回错误码
  *
- * @author QiMu
+ * @author jin
  */
 public enum ErrorCode {
 

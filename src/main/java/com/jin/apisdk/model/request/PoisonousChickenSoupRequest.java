@@ -8,8 +8,6 @@ import lombok.experimental.Accessors;
 
 /**
  * @author jin
- * @Version: 1.0
- * @Description:
  */
 @Accessors(chain = true)
 public class PoisonousChickenSoupRequest extends BaseRequest<PoisonousChickenSoupParams, PoisonousChickenSoupResponse> {

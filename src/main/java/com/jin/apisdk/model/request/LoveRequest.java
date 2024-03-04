@@ -8,7 +8,6 @@ import lombok.experimental.Accessors;
 
 /**
  * @author jin
- * @Version: 1.0
  * @Description: 随机情话
  */
 @Accessors(chain = true)

@@ -1,6 +1,5 @@
 package com.jin.apisdk.model.params;
 
-import com.sun.istack.internal.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,6 +21,5 @@ public class PoetParam implements Serializable {
     /**
      * id没用 不应该传递id 是随机获取诗词的 在后面查询时 id会随机生成
      */
-    @NotNull
     private Long id;
 }

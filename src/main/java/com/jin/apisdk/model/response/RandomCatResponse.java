@@ -8,8 +8,8 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class RandomWallpaperResponse extends ResultResponse {
-    private static final long serialVersionUID = -6467312483425078539L;
+public class RandomCatResponse extends ResultResponse {
+    private static final long serialVersionUID = -5467322483425078539L;
     private String imgurl;
-    private String status;
+    private String id;
 }

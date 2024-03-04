@@ -6,8 +6,6 @@ import java.io.Serializable;
 
 /**
  * @author jin
- * @Version: 1.0
- * @Description:
  */
 @Data
 public class PoisonousChickenSoupParams implements Serializable {

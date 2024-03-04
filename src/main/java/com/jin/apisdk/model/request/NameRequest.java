@@ -7,9 +7,7 @@ import com.jin.apisdk.model.response.NameResponse;
 import lombok.experimental.Accessors;
 
 /**
- * @Author: QiMu
- * @Date: 2023年09月17日 08:38
- * @Version: 1.0
+ * @author jin
  * @Description:
  */
 @Accessors(chain = true)

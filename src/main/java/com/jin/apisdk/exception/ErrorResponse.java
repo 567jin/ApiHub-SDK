@@ -4,8 +4,6 @@ import lombok.Data;
 
 /**
  * @author jin
- * @Version: 1.0
- * @Description:
  */
 @Data
 public class ErrorResponse {

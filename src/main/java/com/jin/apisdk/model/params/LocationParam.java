@@ -1,6 +1,5 @@
 package com.jin.apisdk.model.params;
 
-import com.sun.istack.internal.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,7 +21,6 @@ public class LocationParam implements Serializable {
     /**
      *
      */
-    @NotNull
     private String fid;
 
 }

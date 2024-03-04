@@ -3,7 +3,6 @@ package com.jin.apisdk.exception;
 
 /**
  * @author jin
- * @Version: 1.0
  * @Description: 自定义异常类
  */
 public class ApiException extends Exception {

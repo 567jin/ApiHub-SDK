@@ -5,8 +5,6 @@ import lombok.EqualsAndHashCode;
 
 /**
  * @author jin
- * @Version: 1.0
- * @Description:
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

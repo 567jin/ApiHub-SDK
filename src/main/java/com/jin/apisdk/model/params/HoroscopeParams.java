@@ -7,7 +7,6 @@ import java.io.Serializable;
 
 /**
  * @author jin
- * @Version: 1.0
  * @Description: 随机一句情话
  */
 @Data

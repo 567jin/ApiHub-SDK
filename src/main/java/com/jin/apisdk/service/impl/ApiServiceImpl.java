@@ -3,19 +3,15 @@ package com.jin.apisdk.service.impl;
 import com.jin.apisdk.client.ApiClient;
 import com.jin.apisdk.exception.ApiException;
 import com.jin.apisdk.model.request.*;
-import com.jin.apisdk.model.response.LoveResponse;
-import com.jin.apisdk.model.response.PoisonousChickenSoupResponse;
-import com.jin.apisdk.model.response.RandomWallpaperResponse;
-import com.jin.apisdk.model.response.ResultResponse;
+import com.jin.apisdk.model.response.*;
 import com.jin.apisdk.service.ApiService;
 import com.jin.apisdk.service.BaseService;
+import com.sun.prism.impl.QueuedPixelSource;
 import lombok.extern.slf4j.Slf4j;
 
 
 /**
  * @author jin
- * @Version: 1.0
- * @Description:
  */
 @Slf4j
 public class ApiServiceImpl extends BaseService implements ApiService {
@@ -82,5 +78,15 @@ public class ApiServiceImpl extends BaseService implements ApiService {
     @Override
     public ResultResponse getWeatherInfo(WeatherRequest request) throws ApiException {
         return request(request);
+    }
+
+    @Override
+    public RandomDogResponse getRandomDog(ApiClient apiClient, RandomDogRequest request) throws ApiException {
+        return request(apiClient, request);
+    }
+
+    @Override
+    public RandomCatResponse getRandomCat(ApiClient apiClient, RandomCatRequest request) throws ApiException {
+        return request(apiClient, request);
     }
 }

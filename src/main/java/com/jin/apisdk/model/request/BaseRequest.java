@@ -13,7 +13,6 @@ import java.util.Map;
 
 /**
  * @author jin
- * @Version: 1.0
  * @Description: 基本api请求
  */
 public abstract class BaseRequest<O, T extends ResultResponse> {

@@ -9,9 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author: QiMu
- * @Date: 2023/08/17 09:14:26
- * @Version: 1.0
+ * @author jin
  * @Description: 通用返回类
  */
 @Data

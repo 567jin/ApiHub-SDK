@@ -9,7 +9,6 @@ import lombok.experimental.Accessors;
 
 /**
  * @author jin
- * @Version: 1.0
  * @Description: 获取天气请求
  */
 @Accessors(chain = true)
