@@ -19,7 +19,29 @@ import java.io.Serializable;
 public class PoetParam implements Serializable {
     private static final long serialVersionUID = 1L;
     /**
-     * id没用 不应该传递id 是随机获取诗词的 在后面查询时 id会随机生成
+     * 是否拼接成完整的一首诗 默认false
      */
-    private Long id;
+
+//    private Boolean isPoem;
+    /**
+     * 一次最多请求的诗句
+     */
+    private int poets = 20;
+
+    /**
+     * 作者
+     */
+    private String author;
+    /**
+     * 朝代
+     */
+    private String dynasty;
+    /**
+     * 题目
+     */
+    private String title;
+    /**
+     * 具体古诗
+     */
+    private String poetry;
 }

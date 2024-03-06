@@ -35,9 +35,9 @@ public abstract class BaseService implements ApiService {
     /**
      * 网关HOST
      */
-    // TODO: SDK的网关设置 exportStatic: {},
-//    private String gatewayHost = "http://47.95.193.198:8090/api";
-    private String gatewayHost = "http://localhost:8090/api";
+    // TODO: SDK的网关设置
+    private String gatewayHost = "http://47.95.193.198:8090/api";
+//    private String gatewayHost = "http://localhost:8090/api";
 
     /**
      * 检查客户端Client配置

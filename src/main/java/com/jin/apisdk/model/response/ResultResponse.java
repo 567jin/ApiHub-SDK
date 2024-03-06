@@ -1,6 +1,7 @@
 package com.jin.apisdk.model.response;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,6 +15,7 @@ import java.util.Map;
  */
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class ResultResponse implements Serializable {
     private static final long serialVersionUID = -6486005224268968744L;
     private Map<String, Object> data = new HashMap<>();
