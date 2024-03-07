@@ -6,7 +6,6 @@ import com.jin.apisdk.model.request.*;
 import com.jin.apisdk.model.response.*;
 import com.jin.apisdk.service.ApiService;
 import com.jin.apisdk.service.BaseService;
-import com.sun.prism.impl.QueuedPixelSource;
 import lombok.extern.slf4j.Slf4j;
 
 
@@ -81,12 +80,44 @@ public class ApiServiceImpl extends BaseService implements ApiService {
     }
 
     @Override
+    public ResultResponse getPoet(ApiClient apiClient, PoetRequest request) throws ApiException {
+        return request(apiClient, request);
+
+    }
+
+    @Override
+    public ResultResponse getPoet(PoetRequest request) throws ApiException {
+        return request(request);
+    }
+
+    @Override
     public RandomDogResponse getRandomDog(ApiClient apiClient, RandomDogRequest request) throws ApiException {
         return request(apiClient, request);
     }
 
     @Override
+    public RandomDogResponse getRandomDog(RandomDogRequest request) throws ApiException {
+        return request(request);
+    }
+
+    @Override
     public RandomCatResponse getRandomCat(ApiClient apiClient, RandomCatRequest request) throws ApiException {
         return request(apiClient, request);
+    }
+
+    @Override
+    public RandomCatResponse getRandomCat(RandomCatRequest request) throws ApiException {
+        return request(request);
+    }
+
+    @Override
+    public RandomAcgResponse getRandomACG(ApiClient apiClient, RandomAcgRequest request) throws ApiException {
+        return request(apiClient, request);
+
+    }
+
+    @Override
+    public RandomAcgResponse getRandomACG(RandomAcgRequest request) throws ApiException {
+        return request(request);
     }
 }

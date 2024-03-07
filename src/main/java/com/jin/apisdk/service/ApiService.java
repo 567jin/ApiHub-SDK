@@ -144,6 +144,26 @@ public interface ApiService {
     ResultResponse getWeatherInfo(WeatherRequest request) throws ApiException;
 
     /**
+     * 获取一句古寺
+     *
+     * @param apiClient apiHub客户端
+     * @param request   要求
+     * @return {@link ResultResponse}
+     * @throws ApiException 业务异常
+     */
+    ResultResponse getPoet(ApiClient apiClient, PoetRequest request) throws ApiException;
+
+    /**
+     * 获取一句古诗
+     *
+     * @param request 要求
+     * @return {@link ResultResponse}
+     * @throws ApiException 业务异常
+     */
+    ResultResponse getPoet(PoetRequest request) throws ApiException;
+
+
+    /**
      * 获取随机狗狗图片
      *
      * @param apiClient api客户端
@@ -156,10 +176,49 @@ public interface ApiService {
     /**
      * 获取随机狗狗图片
      *
+     * @param request 要求
+     * @return {@link RandomDogResponse}
+     * @throws ApiException 业务异常
+     */
+    RandomDogResponse getRandomDog(RandomDogRequest request) throws ApiException;
+
+    /**
+     * 获取随机猫猫图片
+     *
      * @param apiClient api客户端
      * @param request   要求
      * @return {@link RandomDogResponse}
      * @throws ApiException 业务异常
      */
     RandomCatResponse getRandomCat(ApiClient apiClient, RandomCatRequest request) throws ApiException;
+
+    /**
+     * 获取随机猫猫图片
+     *
+     * @param request 要求
+     * @return {@link RandomDogResponse}
+     * @throws ApiException 业务异常
+     */
+    RandomCatResponse getRandomCat(RandomCatRequest request) throws ApiException;
+
+
+    /**
+     * 获取随机二次元图片
+     *
+     * @param apiClient api客户端
+     * @param request   要求
+     * @return {@link RandomDogResponse}
+     * @throws ApiException 业务异常
+     */
+    RandomAcgResponse getRandomACG(ApiClient apiClient, RandomAcgRequest request) throws ApiException;
+
+    /**
+     * 获取随机二次元图片
+     *
+     * @param request 要求
+     * @return {@link RandomDogResponse}
+     * @throws ApiException 业务异常
+     */
+    RandomAcgResponse getRandomACG(RandomAcgRequest request) throws ApiException;
+
 }
